@@ -1,0 +1,30 @@
+Bubble sort:-
+------------
+->Also known as sinking sort, as it places the largest element at the end of the array.
+->It checks the adjacent elements and sorts them.
+
+Insertion sort:-
+-------------------
+->this sorting algo is same as sorting the playing cards in our hands.
+->In insertion sort, we divide the given array into two parts- sorted and unsorted.
+->From unsorted, we take the first element and place at it's correct position in sorted array.
+->This is done by shifting all the elements larger than the first element by one position.
+
+Selection sort:-
+----------------
+->In this sort, we divide the given array into two parts- sorted and unsorted.
+->This algo sorts an array by repeatedly finding the minimum in an unsorted array and making it part of a
+sorted array.
+
+Merge Sort:-
+-----------
+->It's a divide and conquer algo.
+->Divide the problem into sub problems, until the sub problems can be solved directly.
+->After that, combine the solutions of sub problems to get the original problem solution.
+
+quick sort:-
+---------
+->It's a divide and conquer algo. and follows 3 steps.
+->pivot selection:-pivot election should be selected first.
+->partitioning:-arranging the elements based on pivot.
+->recursion:-

@@ -1,0 +1,79 @@
+
+Def:- An algorithm is a set of instructions to perform a task or to solve a problem.
+    Ex:-A recipe book contains all the instructions about various dishes.where each recipe is an algorithm.
+
+Algorithm analysis:-
+-----------------------
+->The analysis of an algorithm mainly deals with finding a algorithm which execute in less time and takes
+    less memory.
+
+                Time Complexity:-
+                ----------------
+
+->The amount of time taken by algo to run.
+->The input *processed* by an algorithm, helps in determining the time complexity.
+
+                Space complexity:-
+                -------------------
+->The amount of memory or space taken by algo to run.
+->The memory required to process the input, determines the spaces complexity.
+
+Asymptotic Analysis of an algorithm:-
+----------------------------------------
+->Asymptotic analysis helps in evaluating the performance of a algorithm in terms of input size and its
+increase.
+->using this, we don't measure the actual running time of an algo.
+->It helps in determining, how time and space taken by algo increases or changes, with input size.
+
+Asymptotic Notations:-
+---------------------
+->They are just the mathematical tools, which is used to determine the running time of an algo in terms
+of input size.
+->It helps in determining the:-
+    Best case
+    Average case
+    Worst case
+
+Types of Asymptotic Notations:-
+------------------------------
+->There are 3 notations which evaluate the running time of an algo
+    Omega Notation
+    Big O Notation
+    Theta Notation
+
+                                Omega Notation
+                                ----------------
+->It expresses the lower bound of an algo's running time.
+->lower bound means for any given input,this notation determines the best amount of time an algo take to
+complete.
+
+                                Big O Notation:
+                                ---------------
+->It expresses the upper bound of an algo's running time.
+->upper bound means for any given input,this notation determines the longest amount of time an algo take
+to complete.
+
+                                Theta Notation:
+                                ----------------
+-> It expresses the upper and lower bound of an algo's running time.
+->It means for any given input,this notation determines the average amount of time an algo take
+     to complete.
+
+
+Analysis of time complexity(Big O Notation):-
+----------------------------------------------
+Rules:-
+->We should assume the machine as single processor and executes the statements sequentially.
+->Every assignment operation takes 1 unit of time.
+->Return statement takes 1 unit of time.
+->Arithmetic operation takes 1 unit of time.
+->Logical operation takes 1 unit of time.
+->Other small/single operation takes 1 unit of time.
+->Drop lower order terms
+like, T=3n^2+3n+2==>O(n^2)
+->Drop constant multipliers.
+like, for above example, we are neglecting the 3 of n^2, because of constant multiplier.
+
+
+Calculating the time complexity of a constant algo:-
+------------------------------------------------

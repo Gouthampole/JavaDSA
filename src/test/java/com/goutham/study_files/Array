@@ -1,0 +1,26 @@
+Array:-
+------
+->Arrays are a collection of elements of any type stored in contiguous manner.
+->size if fixed i.e., we cannot change once is created.
+->every element can be accessed by using index and the index starts from 0 to n-1.
+---------------------------------------------------------------------------------
+Declaration:-
+1.dataType arrayName[]
+2.dataType[] arrayName
+----------------------------------------------
+Initialization:-
+->It gives memory to array elements.
+ways:
+    arrayName=new dataType[size]
+   dataType[] arrayName={values}
+-------------------------------------------------
+
+->Arrays are mutable i.e., can be changed.
+Ex:-
+arr[0]=7;//adding
+arr[0]=9;//modifying
+
+->we generally see the ArrayOutOfBoundsException in arrays, because of accessing or using the index,
+    which is greater than the size of an array.
+->
+

@@ -1,0 +1,4 @@
+Queue:-
+-------
+->It is a linear ds,which follows FIFO principle.
+->The insertion is done at rear end and deletion is done at front end.

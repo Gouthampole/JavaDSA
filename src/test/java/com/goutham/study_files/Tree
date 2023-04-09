@@ -1,0 +1,21 @@
+Tree:-
+----
+->It is a non linear ds, which is made up of nodes and edges without having any cycle.
+->It represents hierarchical structure, with a parent node called "root" and many levels of additional nodes.
+
+Binary Tree:-
+------------
+-> It is special kind of tree, where each node contains either 0 or 1 or 2 children.
+->Implemented using doubly linked list.
+
+Traversals:-
+------------
+1.pre-order
+2.in order
+3.post order
+
+1.pre-order:-
+--------------
+->visit root
+->traverse the left subtree in pre order fashion
+->traverse the right subtree in pre order fashion

@@ -1,0 +1,42 @@
+Linked list:-
+-----------------
+
+->Linked list comes under linear data structure, where the data or element is stored in nodes.
+->every node contains two parts,
+    one to store data.
+    other to store the address of next node.
+
+Types:-
+1.Singly Linked list
+2.Doubly Linked list
+3.Circular Linked list
+
+1.Singly Linked list
+---------------------
+->It is a ds, used for storing collection of nodes.
+->It contains seq of nodes.
+->A node has data and ref to next node
+->First node is known as head
+->Last node has data and the ref of node points to null.
+
+Implementation:
+
+public class ListNode<T>{
+private T data;
+private ListNode<T> next;
+}
+
+
+//for merge two sorted ll
+SinglyLinkedList res=new SinglyLinkedList();
+        res.head=merge(a.head,b.head);
+        res.print();
+
+Doubly Linked list:-
+------------------
+->It is a two way linked list.
+->we can traverse both in forward and backward direction, because of prev and next pointers.
+
+CircularLinked list:-
+---------------------
+->same as singly linked list, but the last node is pointing it's next pointer to the first node.

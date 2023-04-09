@@ -1,0 +1,11 @@
+
+->It is a way to organize the data, so that we can easily access it and process it.
+->Data structure can be
+    1.Linear
+    2.non-linear
+1.Linear:- arranging the data elements sequentially.
+Ex:-Array,LinkedList, Stack,Queue
+
+2.Non linear:-The data elements are not in sequence, multi-level, hard to implement and takes time to
+                traverse.
+Ex:-Tree,Graph
